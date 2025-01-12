@@ -1,0 +1,20 @@
+databases:
+  sourcedb:
+    host: 172.16.98.6
+    port: 5432
+    user: postgres
+    password: postgres
+    dbname: postgres
+  targetdb1:
+    host: 172.16.98.7
+    port: 5432
+    user: postgres
+    password: postgres
+    dbname: dbt1
+  targetdb2:
+    host: 172.16.98.7
+    port: 5432
+    user: postgres
+    password: postgres
+    dbname: dbt2
+
